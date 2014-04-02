@@ -1,0 +1,8 @@
+body {
+  background-color: #3a3f3f;
+  background-image: url("/images/tele.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}

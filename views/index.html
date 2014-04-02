@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<!--link rel="stylesheet" type="text/css" href="home.css"--> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+		</script>
+		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<title>Home</title>
+	</head>
+	<body>
+		<script> 
+			$(document).ready(function(){
+				$( "#displayIP" ).text(
+					$(location).attr('href'))
+			})
+		</script>
+		<header>
+			<div id='mainHeader'>
+				<p id='displayIP'></p>
+			</div>
+		</header>
+	</body>
+</html>
